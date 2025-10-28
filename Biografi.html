@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Diri</title>
+  <style>
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+      margin: 0;
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .biodata-container {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      max-width: 850px;
+      padding: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .biodata-container:hover {
+      transform: scale(1.02);
+    }
+
+    .biodata-container img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 40px;
+      border: 4px solid #a4c8f0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .info h1 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #a4c8f0;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .info p {
+      margin: 8px 0;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .info span {
+      font-weight: 600;
+      color: #2c3e50;
+    }
+
+    @media (max-width: 600px) {
+      .biodata-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .biodata-container img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="biodata-container">
+    <img src="f4408d9d612923b6ccf97761836c0511.jpg" alt="Foto Profil">
+    <div class="info">
+      <h1>Biodata Diri</h1>
+      <p><span>Nama:</span> Mohamad Qidam Alfaqih</p>
+      <p><span>NIM:</span> 607102500106</p>
+      <p><span>Jenis Kelamin:</span> Laki-Laki</p>
+      <p><span>Agama:</span> Islam</p>
+      <p><span>Tempat, Tanggal Lahir:</span> Jakarta, 28 Agustus 2006</p>
+      <p><span>Fakultas:</span> Ilmu Terapan</p>
+      <p><span>Alamat:</span> Asrama Putra Telkom University Gedung 1, Jalan Telekomunikasi No.1, Kec. Dayeuhkolot, Kab. Bandung, Jawa Barat</p>
+      <p><span>Hobi:</span> Mendengarkan Musik, Nonton Film</p>
+      <p><span>Cita-cita:</span> Menjadi Game Developer / Web Developer</p>
+    </div>
+  </div>
+</body>
+</html>
